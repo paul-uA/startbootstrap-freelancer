@@ -44,7 +44,7 @@ html(lang='en')
         header.masthead.bg-primary.text-white.text-center
             .container.d-flex.align-items-center.flex-column
                 // Masthead Avatar Image
-                img.masthead-avatar.mb-5(src='assets/img/avataaars.svg', alt='...')
+                img.masthead-avatar.mb-5.rounded(src='assets/img/suitprofilethumbnail.png', alt='...')
                 // Masthead Heading
                 h1.masthead-heading.text-uppercase.mb-0 Paul Avila
                 // Icon Divider
@@ -57,12 +57,12 @@ html(lang='en')
                 p.masthead-subheading.font-weight-light.mb-0 Web Developer - Computer Enthusiast - Multipotentialite 
 
         // About Section
-        section#about.page-section.bg-primary.text-white.mb-0
+        section#about.page-section.text-secondary.mb-0
             .container
                 // About Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-white About
+                h2.page-section-heading.text-center.text-uppercase.text-secondary About
                 // Icon Divider
-                .divider-custom.divider-light
+                .divider-custom.divider-secondary
                     .divider-custom-line
                     .divider-custom-icon
                         i.fas.fa-star
@@ -71,11 +71,38 @@ html(lang='en')
                 .row
                     .col-lg-4.ms-auto
                         p.lead
-                            | Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                            | Hello there, I'm Paul Avila, my passion is solving problems and creating work communities or work 'families'. My current aim is to become a knowledgeable web developer / software engineer. I have recently completed a software engineering bootcamp from General Assembly.
                     .col-lg-4.me-auto
                         p.lead
-                            | You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
-
+                            | During this bootcamp I learned about how a web developer needs to think and skills that are in demand in the tech field. I have a curious mind nad this always has me wanting to learn new things and has made me a bit of a jack of all trades.
+                            
+        // About Section
+        section#about.page-section.bg-primary.text-white.mb-0
+            .container
+                // About Section Heading
+                h2.page-section-heading.text-center.text-uppercase.text-white Skills
+                // Icon Divider
+                .divider-custom.divider-light
+                    .divider-custom-line
+                    .divider-custom-icon
+                        i.fas.fa-star
+                    .divider-custom-line
+                // About Section Content
+                .row
+                    .col-lg
+                    i.fab.fa-js
+                    i.fab.fa-git
+                    i.fab.fa-fw.fa-html5
+                    i.fab.fa-fw.fa-css3-alt
+                    i.fab.fa-fw.fa-react
+                    i.fab.fa-fw.fa-python
+                    i.fab.fa-fw.fa-github
+                    i.fab.fa-fw.fa-bootstrap
+                    i.fab.fa-fw.fa-github
+                    i.fab.fa-fw.fa-github
+                    i.fab.fa-fw.fa-github
+                    i.fab.fa-fw.fa-github
+                                            
 
         // Portfolio Section
         section#portfolio.page-section.portfolio
@@ -131,11 +158,6 @@ html(lang='en')
                     .divider-custom-icon
                         i.fas.fa-star
                     .divider-custom-line
-                 // About Section Button
-                .text-center.mt-4
-                    a.btn.btn-xl.btn-outline-light(href='https://startbootstrap.com/theme/freelancer/')
-                        i.fas.fa-download.me-2
-                        | Download my resume!
 
         // Footer
         footer.footer.text-center

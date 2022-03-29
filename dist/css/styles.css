@@ -297,6 +297,11 @@ figure {
   margin: 0 0 1rem;
 }
 
+.skill{
+  height: 35px;
+  width: 35px;
+} 
+
 img,
 svg {
   vertical-align: middle;
